@@ -1,0 +1,26 @@
+{
+    "name": "netflying/worldpay",
+    "description": "netflying worldpay sdk",
+    "keywords": ["php-sdk","netflying-sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darkghost",
+            "homepage": "https://github.com/aitasty/netflying"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "netflying/payment": "1.1.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "NetflyingWorldpay\\":"src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "NetflyingWorldpayTest\\":"test/"
+        }
+    }
+}
