@@ -20,7 +20,7 @@
     },
     "autoload-dev":{
         "psr-4":{
-            "Netflying\\Worldpay\\Test\\":"test/"
+            "Netflying\\WorldpayTest\\":"test/"
         }
     }
 }

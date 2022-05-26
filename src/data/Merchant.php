@@ -16,14 +16,16 @@ use Netflying\Payment\data\Merchant as MerchantModel;
 class Merchant extends MerchantModel
 {
     protected $apiAccount = [
-        'version' => 'string',
+        'code' => 'string',
         'user' => 'string',
         'password' => 'string',
-        'signature' => 'string',
+        'installation_id' => 'string',
+    ];
+    protected $apiAccountNull = [
+        'code' => null,
+        'user' => null,
+        'password' => null,
+        'installation_id' => null,
     ];
 
-    public function setApiAccount(array $data)
-    {
-        return $this->setter('api_account', $this->setterMode($this->apiAccount, $data));
-    }
 }
