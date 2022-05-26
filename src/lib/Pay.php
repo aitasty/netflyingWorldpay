@@ -1,15 +1,15 @@
 <?php
 
-namespace NetflyingWorldpay;
+namespace Netflying\Worldpay;
 
-use Netflying\interface\Pay as PayInterface;
-use Netflying\common\Curl;
+use Netflying\Payment\interface\Pay as PayInterface;
+use Netflying\Payment\common\Curl;
 
-use NetflyingWorldpay\data\Merchant;
-use NetflyingWorldpay\data\Order;
-use NetflyingWorldpay\data\OrderProduct;
-use NetflyingWorldpay\data\Redirect;
-use NetflyingWorldpay\data\OrderPayment;
+use Netflying\Worldpay\data\Merchant;
+use Netflying\Worldpay\data\Order;
+use Netflying\Worldpay\data\OrderProduct;
+use Netflying\Worldpay\data\Redirect;
+use Netflying\Worldpay\data\OrderPayment;
 
 class Pay implements PayInterface
 {

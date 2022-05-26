@@ -15,12 +15,12 @@
     },
     "autoload":{
         "psr-4":{
-            "NetflyingWorldpay\\":"src/"
+            "Netflying\\Worldpay\\":"src/"
         }
     },
     "autoload-dev":{
         "psr-4":{
-            "NetflyingWorldpayTest\\":"test/"
+            "Netflying\\Worldpay\\Test\\":"test/"
         }
     }
 }

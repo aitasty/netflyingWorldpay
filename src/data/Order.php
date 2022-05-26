@@ -6,9 +6,9 @@
  * @Last Modified time: 2022-05-25 16:08:00
  */
 
-namespace NetflyingWorldpay\data;
+namespace Netflying\Worldpay\data;
 
-use Netflying\data\Order as OrderModel;
+use Netflying\Payment\data\Order as OrderModel;
 
 /**
  *  订单数据模型

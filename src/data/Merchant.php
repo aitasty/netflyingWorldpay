@@ -6,9 +6,9 @@
  * @Last Modified time: 2022-05-25 17:33:52
  */
 
-namespace NetflyingWorldpay\data;
+namespace Netflying\Worldpay\data;
 
-use Netflying\data\Merchant as MerchantModel;
+use Netflying\Payment\data\Merchant as MerchantModel;
 
 /**
  * 支付通道基础数据结构
