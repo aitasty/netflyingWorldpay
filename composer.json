@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "netflying/payment": "1.2.1"
+        "netflying/payment": "1.2.2"
     },
     "autoload":{
         "psr-4":{
